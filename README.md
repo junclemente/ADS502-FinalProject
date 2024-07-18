@@ -23,6 +23,8 @@ The main purpose of this project is _<enter reason>_. \_Describe the goals of th
 and potential impacts. Mention the needs/applications of your project clearly.
 Limit to one/two short paragraphs(s).
 
+The main purpose of this project is to develop a machine learning model to accurately predict the severity of an accident based on specific features.
+
 ## Contributors
 
 - Matt Ammirati
