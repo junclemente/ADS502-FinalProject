@@ -20,7 +20,7 @@ To use this project, clone the repo on your device:
 ## Project Intro/Objective
 
 The main purpose of this project is _<enter reason>_. \_Describe the goals of the project
-and potential impacts. Mentiond the needs/applications of your project clearly.
+and potential impacts. Mention the needs/applications of your project clearly.
 Limit to one/two short paragraphs(s).
 
 ## Contributors
@@ -33,13 +33,15 @@ Limit to one/two short paragraphs(s).
 
 ## Technologies
 
+- ChatGPT was used to write the data dictionary.
+
 ## Project Description
 
 _Discuss the details of project overview. Description your selected dataset, such as data source, number of variables, size of dataset, etc. Include data dictionary if, available. Provide questions and hypothesis that you are exploring. What specific data analysis, visualization, and modeling work are you using to solve the problem? What roadblocks and challenges are you facing? etc_
 
 ### Data Dictionary
 
-- Num
+- Num: Index number
 - Time
 - Day_of_week
 - Age_band_of_driver
