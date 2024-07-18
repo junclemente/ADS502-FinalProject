@@ -60,18 +60,18 @@ _Discuss the details of project overview. Description your selected dataset, suc
 - Light_conditions
 - Weather_conditions
 - Type_of_collision
-- Number_of_vehicles_involved
-- Number_of_casualties
-- Vehicle_movement
-- Casualty_class
-- Sex_of_casualty
-- Age_band_of_casualty
-- Casualty_severity
-- Work_of_casuality
-- Fitness_of_casuality
-- Pedestrian_movement
-- Cause_of_accident
-- Accident_severity
+- Number_of_vehicles_involved: The number of vehicles involved in the accident.
+- Number_of_casualties: The number of casualties involved in the accident.
+- Vehicle_movement: Type of movement or maneuver vehicle was performing.
+- Casualty_class: The classification of the casualty involved in the accident.
+- Sex_of_casualty: The gender of the casualty involved in the accident.
+- Age_band_of_casualty: The age group of the casualty involved in the accident.
+- Casualty_severity: The severity of the casualties involved in the accident.
+- Work_of_casuality: The occupation or work status of the casualty. (8 unique)
+- Fitness_of_casuality: The fitness or physical condition of the casualty.
+- Pedestrian_movement: The movement or action of the pedestrian at the time of the accident.
+- Cause_of_accident: The primary cause or contributing factor of the accident.
+- Accident*severity (\_target*): The severity of the accident.
 
 Dataset: [Road Traffic Accidents | kaggle.com](https://www.kaggle.com/competitions/road-traffic-accidents)
 
