@@ -75,7 +75,7 @@ _Discuss the details of project overview. Description your selected dataset, suc
 - Cause_of_accident: The primary cause or contributing factor of the accident.
 - Accident*severity (\_target*): The severity of the accident.
 
-Dataset: [Road Traffic Accidents | kaggle.com](https://www.kaggle.com/competitions/road-traffic-accidents)
+Dataset: [Sonia Gharsalli. (2024). Road Traffic Accidents. Kaggle. https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
 
 ## License
 
