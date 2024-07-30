@@ -50,39 +50,16 @@ _Discuss the details of project overview. Description your selected dataset, suc
 
 ### Data Dictionary
 
-- Num: Index number
-- Time
-- Day_of_week
-- Age_band_of_driver
-- Sex_of_driver
-- Educational_level
-- Vehicle_driver_relation
-- Driving_experience
-- Type_of_vehicle
-- Owner_of_vehicle
-- Service_year_of_vehicle
-- Defect_of_vehicle
-- Area_accident_occured
-- Lanes_or_Medians
-- Road_allignment
-- Types_of_Junction
-- Road_surface_type
-- Road_surface_conditions
-- Light_conditions
-- Weather_conditions
-- Type_of_collision
-- Number_of_vehicles_involved: The number of vehicles involved in the accident.
-- Number_of_casualties: The number of casualties involved in the accident.
-- Vehicle_movement: Type of movement or maneuver vehicle was performing.
-- Casualty_class: The classification of the casualty involved in the accident.
-- Sex_of_casualty: The gender of the casualty involved in the accident.
-- Age_band_of_casualty: The age group of the casualty involved in the accident.
-- Casualty_severity: The severity of the casualties involved in the accident.
-- Work_of_casuality: The occupation or work status of the casualty. (8 unique)
-- Fitness_of_casuality: The fitness or physical condition of the casualty.
-- Pedestrian_movement: The movement or action of the pedestrian at the time of the accident.
-- Cause_of_accident: The primary cause or contributing factor of the accident.
-- Accident*severity (\_target*): The severity of the accident.
+7. Day_of_week
+8. Age_band_of_driver:
+9. Sex_of_driver
+10. Area_accident_occured
+11. Types_of_Junction
+12. Light_conditions
+13. Number_of_vehicles_involved: The number of vehicles involved in the accident.
+14. Number_of_casualties: The number of casualties involved in the accident.
+15. Cause_of_accident: The primary cause or contributing factor of the accident.
+16. Accident_severity (target): The severity of the accident.
 
 Dataset: [Sonia Gharsalli. (2024). Road Traffic Accidents. Kaggle. https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
 
