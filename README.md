@@ -2,13 +2,20 @@
 
 This project is part of the ADS-502 course in the Applied Data Science Program at the University of San Diego.
 
-_--Project Status: [Planned]_
+_--Project Status: In Progress_
 
 - Define Purpose - _In Progress_
 - Obtain Data - **Completed**
-- Explore and Clean Data - _In Progress_
-- Determine data mining task
-- Choose data mining methods
+- Explore and Clean Data - **Completed**
+- Determine data mining task - **Completed**
+  - Use EDA to determine features that are correlated to the target
+- Choose data mining methods - _In Progress_
+  - Decision Tree
+  - Random Forest
+  - Naive Bayes
+  - Logistic Regression
+  - k-Nearest Neigbor
+  - Neural Network
 - Apply methods and select final model
 - Evaluate performance
 
