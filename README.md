@@ -24,6 +24,12 @@ _--Project Status: In Progress_
 To use this project, clone the repo on your device:
 <steps to clone repo>
 
+Within a conda environment, create a new environment:
+
+```
+conda env create -f <path/to/mambaML.yml>
+```
+
 ## Project Intro/Objective
 
 The main purpose of this project is _<enter reason>_. \_Describe the goals of the project
@@ -34,9 +40,9 @@ The main purpose of this project is to develop a machine learning model to accur
 
 ## Contributors
 
-- Matt Ammirati
-- Amayrani Balbuena
-- Jun Clemente
+- [Matt Ammirati](https://github.com/Mammirati15)
+- [Amayrani Balbuena](https://github.com/amayranib)
+- [Jun Clemente](https://github.com/junclemente)
 
 ## Methods Used
 
@@ -60,6 +66,21 @@ _Discuss the details of project overview. Description your selected dataset, suc
 14. Number_of_casualties: The number of casualties involved in the accident.
 15. Cause_of_accident: The primary cause or contributing factor of the accident.
 16. Accident_severity (target): The severity of the accident.
+
+### Data Dictionary (Updated)
+
+| **Variable Name**             | **Description**                                       | **Type**    | **Possible Values / Range**                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------------------- | ----------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Area_accident_occurred`      | The area where the accident took place.               | Categorical | Residential areas, Office areas, Recreational areas, Industrial areas, Other, Church areas, Market areas, Unknown, Rural village areas, Outside rural areas, Hospital areas, School areas, Rural village areas, Office areas                                                                                                                                                                   |
+| `Types_of_Junction`           | The type of junction where the accident occurred.     | Categorical | No junction, Y Shape, Crossing, O Shape, Other, Unknown, T Shape, X Shape                                                                                                                                                                                                                                                                                                                      |
+| `Light_conditions`            | The light condition during the accident.              | Categorical | Daylight, Darkness lights lit, Darkness - no lighting, Darkness - lights unlit                                                                                                                                                                                                                                                                                                                 |
+| `Number_of_vehicles_involved` | The number of vehicles involved in the accident.      | Discrete    | 1 to 7                                                                                                                                                                                                                                                                                                                                                                                         |
+| `Number_of_casualties`        | The number of casualties as a result of the accident. | Discrete    | 1 to 8                                                                                                                                                                                                                                                                                                                                                                                         |
+| `Cause_of_accident`           | The primary cause of the accident.                    | Categorical | Moving Backward, Overtaking, Changing lane to the left, Changing lane to the right, Overloading, Other, No priority to vehicle, No priority to pedestrian, No distancing, Getting off the vehicle improperly, Improper parking, Overspeed, Driving carelessly, Driving at high speed, Driving to the left, Unknown, Overturning, Turnover, Driving under the influence of drugs, Drunk driving |
+| `Day_of_week`                 | The day of the week when the accident occurred.       | Categorical | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday                                                                                                                                                                                                                                                                                                                                 |
+| `Sex_of_driver`               | The gender of the driver involved in the accident.    | Categorical | Male, Female, Unknown                                                                                                                                                                                                                                                                                                                                                                          |
+| `Age_band_of_driver`          | The age band of the driver involved in the accident.  | Categorical | 18-30, 31-50, Under 18, Over 51, Unknown                                                                                                                                                                                                                                                                                                                                                       |
+| `Accident_severity`           | The severity of the accident.                         | Categorical | Slight Injury, Serious Injury, Fatal injury                                                                                                                                                                                                                                                                                                                                                    |
 
 Dataset: [Sonia Gharsalli. (2024). Road Traffic Accidents. Kaggle. https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
 
