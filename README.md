@@ -56,19 +56,6 @@ _Discuss the details of project overview. Description your selected dataset, suc
 
 ### Data Dictionary
 
-7. Day_of_week
-8. Age_band_of_driver:
-9. Sex_of_driver
-10. Area_accident_occured
-11. Types_of_Junction
-12. Light_conditions
-13. Number_of_vehicles_involved: The number of vehicles involved in the accident.
-14. Number_of_casualties: The number of casualties involved in the accident.
-15. Cause_of_accident: The primary cause or contributing factor of the accident.
-16. Accident_severity (target): The severity of the accident.
-
-### Data Dictionary (Updated)
-
 | **Variable Name**             | **Description**                                       | **Type**    | **Possible Values / Range**                                                                                                                                                                                                                                                                                                                                                                    |
 | ----------------------------- | ----------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Area_accident_occurred`      | The area where the accident took place.               | Categorical | Residential areas, Office areas, Recreational areas, Industrial areas, Other, Church areas, Market areas, Unknown, Rural village areas, Outside rural areas, Hospital areas, School areas, Rural village areas, Office areas                                                                                                                                                                   |
