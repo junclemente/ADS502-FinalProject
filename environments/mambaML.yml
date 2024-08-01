@@ -1,12 +1,12 @@
 name: mambaML
-channels: 
+channels:
   - conda-forge
   - microsoft
   - defaults
 dependencies:
   - python=3.10.*
   - pandas
-  - numpy 
+  - numpy
   - seaborn
   - matplotlib
   - scikit-learn
@@ -15,4 +15,5 @@ dependencies:
   - pydotplus
   - pip
   - pip:
-    - tensorflow
+      - tensorflow
+      - imblearn
