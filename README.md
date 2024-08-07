@@ -12,7 +12,7 @@ _--Project Status: In Progress_
 - Choose data mining methods - **Completed**
   - Decision Tree
   - Random Forest
-  - Naive Bayes
+  - Naïve Bayes
   - Logistic Regression
   - k-Nearest Neigbor
   - Neural Network
@@ -49,7 +49,7 @@ The main purpose of this project is to develop a machine learning model to accur
 - Decision Tree
 - k-Nearest Neighbor
 - Logrithmic Regression
-- Naive Bayes
+- Naïve Bayes
 - Neural Network
 - Random Forest
 
