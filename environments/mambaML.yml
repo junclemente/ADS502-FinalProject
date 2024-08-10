@@ -15,5 +15,6 @@ dependencies:
   - pydotplus
   - pip
   - pip:
+      - scikeras[tensorflow]
       - tensorflow
       - imblearn
