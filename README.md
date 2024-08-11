@@ -2,7 +2,7 @@
 
 This project is part of the ADS-502 course in the Applied Data Science Program at the University of San Diego.
 
-_--Project Status: In Progress_
+_--Project Status: **Completed**
 
 - Define Purpose - _In Progress_
 - Obtain Data - **Completed**
@@ -16,8 +16,8 @@ _--Project Status: In Progress_
   - Logistic Regression
   - k-Nearest Neigbor
   - Neural Network
-- Apply methods and select final model
-- Evaluate performance
+- Apply methods and select final model - **Completed**
+- Evaluate performance - **N/A**
 
 ## Installation
 
