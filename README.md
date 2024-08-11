@@ -9,10 +9,10 @@ _--Project Status: In Progress_
 - Explore and Clean Data - **Completed**
 - Determine data mining task - **Completed**
   - Use EDA to determine features that are correlated to the target
-- Choose data mining methods - _In Progress_
+- Choose data mining methods - **Completed**
   - Decision Tree
   - Random Forest
-  - Naive Bayes
+  - Naïve Bayes
   - Logistic Regression
   - k-Nearest Neigbor
   - Neural Network
@@ -46,13 +46,24 @@ The main purpose of this project is to develop a machine learning model to accur
 
 ## Methods Used
 
+- Decision Tree
+- k-Nearest Neighbor
+- Logrithmic Regression
+- Naïve Bayes
+- Neural Network
+- Random Forest
+
 ## Technologies
 
 - ChatGPT was used to write the data dictionary.
 
 ## Project Description
 
-_Discuss the details of project overview. Description your selected dataset, such as data source, number of variables, size of dataset, etc. Include data dictionary if, available. Provide questions and hypothesis that you are exploring. What specific data analysis, visualization, and modeling work are you using to solve the problem? What roadblocks and challenges are you facing? etc_
+This project focuses on the predictive modeling of road traffic accident severity. The primary goal is to accurately predict the severity of accidents, focusing on those resulting in serious injuries, to improve emergency response deployment and reduce the potential for fatalities.
+
+The data "Road Traffic Accidents" was acquired from Kaggle.com, which has 8210 entries and 32 features plus the target variable. Through exploratory data analysis, we selected nine (9) features that we believe are the variables that contribute the most to severity of accidents. Our final dataset includes 8210 entries.
+
+One of the challenges that we've encountered is that large class imbalance among the three classifications of Accident_severity.
 
 ### Data Dictionary
 
@@ -68,6 +79,8 @@ _Discuss the details of project overview. Description your selected dataset, suc
 | `Sex_of_driver`               | The gender of the driver involved in the accident.    | Categorical | Male, Female, Unknown                                                                                                                                                                                                                                                                                                                                                                          |
 | `Age_band_of_driver`          | The age band of the driver involved in the accident.  | Categorical | 18-30, 31-50, Under 18, Over 51, Unknown                                                                                                                                                                                                                                                                                                                                                       |
 | `Accident_severity`           | The severity of the accident.                         | Categorical | Slight Injury, Serious Injury, Fatal injury                                                                                                                                                                                                                                                                                                                                                    |
+
+(OpenAI, 2024)
 
 Dataset: [Sonia Gharsalli. (2024). Road Traffic Accidents. Kaggle. https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
 
