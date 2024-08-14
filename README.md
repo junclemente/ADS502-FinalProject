@@ -2,9 +2,9 @@
 
 This project is part of the ADS-502 course in the Applied Data Science Program at the University of San Diego.
 
-_--Project Status: **Completed**
+--Project Status: **Completed**
 
-- Define Purpose - _In Progress_
+- Define Purpose - **Completed**
 - Obtain Data - **Completed**
 - Explore and Clean Data - **Completed**
 - Determine data mining task - **Completed**
@@ -21,8 +21,10 @@ _--Project Status: **Completed**
 
 ## Installation
 
-To use this project, clone the repo on your device:
-<steps to clone repo>
+Clone repository to your PC.
+Ensure your environment includes the libraries as listed under 'Technologies'.
+
+If you have [anaconda](anaconda.com) installed, you can create an environment using the `mambaML.yml` file in the `environments` folder.
 
 Within a conda environment, create a new environment:
 
@@ -31,10 +33,6 @@ conda env create -f <path/to/mambaML.yml>
 ```
 
 ## Project Intro/Objective
-
-The main purpose of this project is _<enter reason>_. \_Describe the goals of the project
-and potential impacts. Mention the needs/applications of your project clearly.
-Limit to one/two short paragraphs(s).
 
 The main purpose of this project is to develop a machine learning model to accurately predict the severity of an accident based on specific features.
 
@@ -55,7 +53,19 @@ The main purpose of this project is to develop a machine learning model to accur
 
 ## Technologies
 
-- ChatGPT was used to write the data dictionary.
+- python 3.10.\*
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- scikit-learn
+- jupyter
+- statsmodels
+- pydotplus
+- pip
+- scikeras[tensorflow]
+- tensorflow
+- imblearn
 
 ## Project Description
 
@@ -82,7 +92,7 @@ One of the challenges that we've encountered is that large class imbalance among
 
 (OpenAI, 2024)
 
-Dataset: [Sonia Gharsalli. (2024). Road Traffic Accidents. Kaggle. https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
+Dataset: Road Traffic Accidents (Gharsalli, 2024)
 
 ## License
 
@@ -109,3 +119,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Acknowledgements
+
+Gharsalli, S. (2024). Road Traffic Accidents [Dataset]. Kaggle. [https://www.kaggle.com/competitions/road-traffic-accidents](https://www.kaggle.com/competitions/road-traffic-accidents)
+
+OpenAI. (2024). ChatGPT (August 2024 version) [AI Model Output]. OpenAI. [https://chat.openai.com/](https://chat.openai.com/)
