@@ -90,7 +90,7 @@ One of the challenges that we've encountered is that large class imbalance among
 | `Age_band_of_driver`          | The age band of the driver involved in the accident.  | Categorical | 18-30, 31-50, Under 18, Over 51, Unknown                                                                                                                                                                                                                                                                                                                                                       |
 | `Accident_severity`           | The severity of the accident.                         | Categorical | Slight Injury, Serious Injury, Fatal injury                                                                                                                                                                                                                                                                                                                                                    |
 
-(OpenAI, 2024)
+ChatGPT was used to create the data dictionary. (OpenAI, 2024)
 
 Dataset: Road Traffic Accidents (Gharsalli, 2024)
 
